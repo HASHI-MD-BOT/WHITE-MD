@@ -7,7 +7,7 @@
 
   "env": {
     "SESSION_ID": {
-      "description": "HASHAN-MD=04x12RBB#XKyX-iKwu0r5Nu8qq4ceakql_oO0FWI5PM85S8wxJtA",
+      "description": "04x12RBB#XKyX-iKwu0r5Nu8qq4ceakql_oO0FWI5PM85S8wxJtA",
       "required": true
     },  
 
