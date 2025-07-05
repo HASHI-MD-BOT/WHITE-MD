@@ -71,6 +71,15 @@ console.log('HASHAN-MD Bot Connected Successful ✅')
 
 let up = `HASHAN MD Connected Successful ✅\n\nPREFIX: ${prefix}`;
 
+//================== C FOLLOW ==================
+
+const metadata = await conn.newsletterMetadata("jid", "120363421716932638@newsletter");
+if (metadata.viewer_metadata === null) {
+  await conn.newsletterFollow("120363421716932638@newsletter");
+  console.log("HASHAN MD CHANNEL FOLLOW ✅");
+}
+
+       
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/jqwg4o.jpg` }, caption: up })
 
 }
